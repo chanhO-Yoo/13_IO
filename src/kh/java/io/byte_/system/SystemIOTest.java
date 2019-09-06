@@ -55,6 +55,8 @@ public class SystemIOTest {
 	/*
 	 * System.in : 주스트림
 	 * InputStreamReader : 브릿지스트림 - 1byte -> 2byte
+	 * (스트림은 바이트 단위 이지만 문자(char)의 경우 2바이트로 구성)
+	 * -> 두개를 연결하는 스트림
 	 * BufferedReader : 보조스트림
 	 */
 	public void test2() {
@@ -77,7 +79,6 @@ public class SystemIOTest {
 			}
 		}
 		
-		// TODO : 이건 왜????
 //		Scanner sc = new Scanner(System.in);
 //		String s = sc.next();
 	}

@@ -22,8 +22,9 @@ public class BufferedRWTest {
 	 */
 	public void test1() {
 		FileReader fr = null;
-		String fileName = "src/kh/java/io/char_/file/BufferedRWTest.java";
 		BufferedReader br = null;
+		String fileName = "src/kh/java/io/char_/file/BufferedRWTest.java";
+
 		FileWriter fw = null;
 		BufferedWriter bw = null;
 		String newFile = "char/BufferedRWTestCopy.java";
